@@ -2,6 +2,10 @@
   "name": "reactman-example",
   "version": "1.0.0",
   "description": "Examples for Reactman code generation",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edwinwebb/reactman-examples"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "react": "reactman --config ./templates/react/config-react.js",
