@@ -1,0 +1,17 @@
+{
+  "name": "reactman-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react": "reactman --config ./templates/react/config-react.js",
+    "pixi": "reactman --config ./templates/pixi/config-pixi.js",
+    "angular": "reactman --config ./templates/angular/config-angular.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "reactman": "^3.5.1"
+  }
+}
